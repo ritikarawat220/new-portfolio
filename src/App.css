@@ -108,8 +108,6 @@ html {
   padding-left: 1rem !important;
 }
 
-
-
 @media (width <= 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
@@ -146,9 +144,7 @@ html {
   width: 100%;
 }
 
-
 /* Home section */
-
 .wave {
   animation-name: wave-animation; 
   animation-duration: 2.1s; 
@@ -184,7 +180,8 @@ html {
 
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
+  
   100% {
     transform: rotate(0deg);
   }
@@ -231,10 +228,6 @@ html {
 .main-name {
   color: #cd5ff8;
 }
-
-
-
-
 
 .home-about-section {
   position: relative;
