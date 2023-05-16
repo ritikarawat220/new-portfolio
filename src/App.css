@@ -274,7 +274,7 @@ html {
   line-height: 2em !important;
   background: rgb(255 255 255 / 97.2%) !important;
   border-radius: 50% !important;
-  transition: 0.5s !important;
+  transition: 0.6s !important;
 }
 
 .home-social-icons::before {
