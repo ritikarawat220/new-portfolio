@@ -1,14 +1,16 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgb(17 16 16 / 58.2%),
-    rgb(12 8 24 / 90.4%)
-  );
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgb(17 16 16 / 67.8%),
-    rgb(12 10 22 / 86.3%)
-  );
+  --section-background-color:
+    linear-gradient(
+      to bottom left,
+      rgb(17 16 16 / 58.2%),
+      rgb(12 8 24 / 90.4%)
+    );
+  --image-gradient:
+    linear-gradient(
+      to bottom left,
+      rgb(17 16 16 / 67.8%),
+      rgb(12 10 22 / 86.3%)
+    );
   --imp-text-color: #c770f0;
 }
 
@@ -146,10 +148,10 @@ html {
 
 /* Home section */
 .wave {
-  animation-name: wave-animation; 
-  animation-duration: 2.1s; 
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
   animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; 
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -160,7 +162,7 @@ html {
 
   10% {
     transform: rotate(14deg);
-  } 
+  }
 
   20% {
     transform: rotate(-8deg);
@@ -181,7 +183,7 @@ html {
   60% {
     transform: rotate(0deg);
   }
-  
+
   100% {
     transform: rotate(0deg);
   }
