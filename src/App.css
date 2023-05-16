@@ -202,14 +202,32 @@ html {
 }
 
 .home-section {
-  position: relative;
+ /*  position: relative;
   z-index: -1;
+  background-image: url(./Assets/bg.avif);
+  height: 100vh;
   background: linear-gradient(135deg, #5324c3, #ff00b1);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 30px !important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./Assets/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 110px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    position: relative;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;
