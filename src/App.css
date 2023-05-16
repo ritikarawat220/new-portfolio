@@ -1,16 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgb(17 16 16 / 58.2%),
+    rgb(12 8 24 / 90.4%)
   );
-
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgb(17 16 16 / 67.8%),
+    rgb(12 10 22 / 86.3%)
   );
-
   --imp-text-color: #c770f0;
 }
 
@@ -18,7 +16,7 @@ html {
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0 10px 10px 0 rgb(9 5 29 / 17.1%) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -55,7 +53,6 @@ html {
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
   transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -80,23 +77,29 @@ html {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
+
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
+
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(250 250 250) !important;
 }
 
 .logo {
   height: 2.4em !important;
   width: 4.5em !important;
+}
+
+.nav-link {
+  padding: 0.8rem 1rem !important;
 }
 
 .navbar-nav .nav-link {
@@ -105,11 +108,9 @@ html {
   padding-left: 1rem !important;
 }
 
-.nav-link {
-  padding: 0.8rem 1rem !important;
-}
 
-@media (max-width: 767px) {
+
+@media (width <= 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -160,21 +161,27 @@ html {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(14deg);
   } 
+
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(0deg);
   } /* Reset for the last half to pause */
@@ -182,6 +189,7 @@ html {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -224,38 +232,9 @@ html {
   color: #cd5ff8;
 }
 
-.Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
-}
-.Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #b562d6 !important;
-}
 
-@media (max-width: 767px) {
-  .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
-  }
-  .Typewriter__cursor {
-    display: none !important;
-  }
-}
 
-.myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
-}
 
-@media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
-  }
-}
 
 .home-about-section {
   position: relative;
@@ -298,7 +277,7 @@ html {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgb(255 255 255 / 97.2%) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
