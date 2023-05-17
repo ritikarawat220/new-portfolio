@@ -355,8 +355,9 @@ html {
 }
 
 .rr-img {
-  max-width: 115%;
-  border-radius: 59%;
+  max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 15px 20px #1495ff;
 }
 
 @media (max-width: 767px) {
