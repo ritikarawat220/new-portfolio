@@ -60,7 +60,7 @@ function About() {
                       development.
                     </p>
 
-                    <p style={{ color: 'rgb(9 224 255);' }}>
+                    <p className="quote">
                       &quot;Let your code be a catalyst for positive change in the world.&quot;
                     </p>
 

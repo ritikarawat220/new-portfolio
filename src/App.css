@@ -98,6 +98,7 @@ html {
 .logo {
   height: 2.4em !important;
   width: 4.5em !important;
+  margin-top: 13px;
 }
 
 .nav-link {
@@ -332,6 +333,10 @@ html {
   background-size: cover;
   background-position: top center;
   color: white !important;
+}
+
+.quote {
+  color: rgb(9 224 255);
 }
 
 .tech-icons {

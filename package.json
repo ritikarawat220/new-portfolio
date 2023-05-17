@@ -40,5 +40,6 @@
     "react-router-dom": "^6.11.1",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^3.3.1"
+    
   }
 }
