@@ -189,16 +189,15 @@ html {
   }
 }
 
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
-
 .home-header {
   padding-top: 80px !important;
+}
+
+.type-sec {
+  color: #cd5ff8;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: var(--bs-body-font-family);
 }
 
 .home-section {
