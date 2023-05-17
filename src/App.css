@@ -202,15 +202,6 @@ html {
 }
 
 .home-section {
- /*  position: relative;
-  z-index: -1;
-  background-image: url(./Assets/bg.avif);
-  height: 100vh;
-  background: linear-gradient(135deg, #5324c3, #ff00b1);
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,4 +319,105 @@ html {
 
 .icon-colour {
   color: #700c86 !important;
+}
+
+/* About */
+/* --------- */
+
+.about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background: url(./Assets/bg.avif);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: white !important;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.rr-img {
+  max-width: 115%;
+    border-radius: 59%;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+
+  .rr-img {
+    max-width: 91%;
+    height: auto;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.quote-card-view {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.about-activity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+.paraimp {
+  box-shadow: rgb(20, 149, 255) 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(0, 0, 28);
+  border-radius: 22px;
+  padding: 24px;
+  max-width: 1600px;
+}
+
+/* .card-body {
+  max-width: 1629px;
+  margin-left: -110px;
+  padding: 0px 30px;
+  box-shadow: rgb(20, 149, 255) 0px 0px 10px;
+  max-height: 1000px;
+  background: rgba(0, 0, 28, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-evenly;
+} */
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
 }
