@@ -202,23 +202,20 @@ html {
 }
 
 .home-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url(./Assets/bg.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 110px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    height: 150vh;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Assets/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 110px;
+  height: 150vh;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  position: relative;
 }
-
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -322,7 +319,6 @@ html {
 }
 
 /* About */
-/* --------- */
 
 .about-section {
   position: relative !important;
@@ -331,7 +327,7 @@ html {
   background: url(./Assets/bg.avif);
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -356,7 +352,7 @@ html {
 
 .rr-img {
   max-width: 115%;
-    border-radius: 59%;
+  border-radius: 59%;
 }
 
 @media (max-width: 767px) {
@@ -375,6 +371,7 @@ html {
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -393,7 +390,7 @@ html {
 }
 
 .paraimp {
-  box-shadow: rgb(20, 149, 255) 0px 0px 10px;
+  box-shadow: rgb(20, 149, 255) 0 0 10px;
   display: flex;
   justify-content: space-between;
   background: rgb(0, 0, 28);
@@ -402,19 +399,14 @@ html {
   max-width: 1600px;
 }
 
-/* .card-body {
-  max-width: 1629px;
-  margin-left: -110px;
-  padding: 0px 30px;
-  box-shadow: rgb(20, 149, 255) 0px 0px 10px;
-  max-height: 1000px;
-  background: rgba(0, 0, 28, 0.8);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: inherit;
-  justify-content: space-evenly;
-} */
+.project-heading {
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: 25px;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
 
 @media (max-width: 767px) {
   .about-img {
