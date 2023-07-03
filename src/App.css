@@ -441,6 +441,11 @@ html {
   height: auto;
 }
 
+.para {
+  justify-content: center;
+  display: flex;
+}
+
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
@@ -518,4 +523,6 @@ html {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  justify-content: center;
+  display: flex;
 }
