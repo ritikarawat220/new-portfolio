@@ -404,15 +404,6 @@ html {
   max-width: 1600px;
 }
 
-.project-heading {
-  flex-shrink: 0;
-  width: 100%;
-  margin-top: 25px;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-}
-
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
