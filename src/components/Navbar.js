@@ -7,6 +7,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFilePdf,
 } from 'react-icons/ai';
 import logo from '../Assets/rr logo.png';
 
@@ -73,11 +74,22 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: '2px' }}
-                />
+                <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} />
                 {' '}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://docs.google.com/document/d/1utyH6b21SgiHV75NbcOIMz6lcxj3iYv97c696mLmFjI/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFilePdf style={{ marginBottom: '2px' }} />
+                {' '}
+                Resume
               </Nav.Link>
             </Nav.Item>
 
