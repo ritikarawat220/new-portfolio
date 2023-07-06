@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { AiFillGithub } from 'react-icons/ai';
-import { FaLinkedinIn, FaFilePdf } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
 import Type from './Type';
 import Avatar from '../../Assets/avatar.png';
 
@@ -61,15 +62,12 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://docs.google.com/document/d/1utyH6b21SgiHV75NbcOIMz6lcxj3iYv97c696mLmFjI/edit?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="mailto:your-email@example.com"
                     className="icon-colour  home-social-icons"
                   >
-                    <FaFilePdf />
+                    <GrMail />
                   </a>
                 </li>
-
                 <li className="social-icons">
                   <a
                     href="https://www.linkedin.com/in/rawatritika/"
