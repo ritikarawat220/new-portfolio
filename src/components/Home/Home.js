@@ -1,10 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-} from 'react-icons/ai';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
+import { FaLinkedinIn, FaFilePdf } from 'react-icons/fa';
 import Type from './Type';
 import Avatar from '../../Assets/avatar.png';
 
@@ -64,14 +61,15 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Ritikarawat22"
+                    href="https://docs.google.com/document/d/1utyH6b21SgiHV75NbcOIMz6lcxj3iYv97c696mLmFjI/edit?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    <AiOutlineTwitter />
+                    <FaFilePdf />
                   </a>
                 </li>
+
                 <li className="social-icons">
                   <a
                     href="https://www.linkedin.com/in/rawatritika/"
