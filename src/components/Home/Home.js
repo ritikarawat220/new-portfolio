@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { AiFillGithub } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+} from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { GrMail } from 'react-icons/gr';
 import Type from './Type';
 import Avatar from '../../Assets/avatar.png';
 
@@ -62,10 +64,12 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="ritikarawat220@gmail.com"
+                    href="https://twitter.com/Ritikarawat22"
+                    target="_blank"
+                    rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    <GrMail />
+                    <AiOutlineTwitter />
                   </a>
                 </li>
                 <li className="social-icons">
