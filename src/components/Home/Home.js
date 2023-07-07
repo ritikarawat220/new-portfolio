@@ -62,7 +62,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="mailto:your-email@example.com"
+                    href="ritikarawat220@gmail.com"
                     className="icon-colour  home-social-icons"
                   >
                     <GrMail />
