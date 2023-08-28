@@ -7,7 +7,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineFilePdf,
+  AiOutlineCode,
+  AiOutlineMail,
 } from 'react-icons/ai';
 import logo from '../Assets/rr logo.png';
 
@@ -82,17 +83,27 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://docs.google.com/document/d/1utyH6b21SgiHV75NbcOIMz6lcxj3iYv97c696mLmFjI/edit?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/tech"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFilePdf style={{ marginBottom: '2px' }} />
+                <AiOutlineCode style={{ marginBottom: '2px' }} />
                 {' '}
-                Resume
+                Tech
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMail style={{ marginBottom: '2px' }} />
+                {' '}
+                Contact
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
