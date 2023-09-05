@@ -25,39 +25,11 @@ function About() {
                 <Card.Body>
                   <blockquote className="blockquote mb-0">
                     <p className="para" style={{ textAlign: 'justify' }}>
-                      Hi, I&apos;m Ritika Rawat, a passionate web developer from Uttarakhand, India.
-                      I discovered my love for programming in late 2022 and pursued
-                      a career in software development. I enrolled
-                      in the prestigious Microverse online program in 2023 to refine my skills.
+                      Hi, I&apos;m Ritika Rawat, a passionate web developer from Uttarakhand, India. I discovered my love for programming in late 2021 and pursued a career in software development. 
+                      
+                      During my time at Microverse, I gained expertise in HTML5, CSS3/SCSS, JavaScript, React, Redux, and Ruby. Collaboration and mentoring are my strengths, and I prioritize a mobile-first approach and test-driven development. I love to create amazing web experiences for users!
 
-                      During my time at Microverse, I gained expertise in HTML5, CSS3/SCSS,
-                      JavaScript, React,
-                      Redux, and Ruby. I prioritized a mobile-first approach and
-                      implemented test-driven development
-                      to ensure reliable and robust code.
-
-                      Collaboration played a vital role in my growth as a developer.
-                      Through pair programming and industry-standard gitflow
-                      practices, I effectively collaborated with diverse teams,
-                      managing code repositories and ensuring seamless version control.
-                      I also mentored junior developers,
-                      providing guidance and code reviews to foster their growth.
-
-                      I embraced the kanban method for efficient and agile development
-                      of interactive applications,
-                      consistently delivering projects ahead of deadlines.
-                      Driven by my passion for creating dynamic
-                      and feature-rich applications, I am dedicated to
-                      continuous improvement and expanding my
-                      knowledge base.
-
-                      Every day, I actively enhance projects, seek networking opportunities,
-                      and explore new
-                      avenues for learning and growth. With a proven track record
-                      of delivering high-quality projects,
-                      I am eager to take on new challenges and
-                      contribute to the ever-evolving field of software
-                      development.
+                      I firmly believe that my technical expertise, creative thinking, and innate eye for design converge harmoniously, allowing me to deliver innovative solutions that deeply resonate with users. Collaborating with me means breathing life into your digital projects and witnessing them flourish beyond your expectations. Let&apos;s join forces and embark on a journey of transforming ideas into extraordinary digital experiences!
                     </p>
 
                     <p className="quote">
