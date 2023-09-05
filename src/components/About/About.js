@@ -18,18 +18,33 @@ function About() {
                 paddingBottom: '50px',
               }}
             >
-              <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+              <h1 style={{ fontSize: '2.1em', paddingBottom: '20px', color: '#ff0067' }}>
                 <strong className="purple">About Me!</strong>
               </h1>
               <Card className="quote-card-view">
                 <Card.Body>
                   <blockquote className="blockquote mb-0">
                     <p className="para" style={{ textAlign: 'justify' }}>
-                      Hi, I&apos;m Ritika Rawat, a passionate web developer from Uttarakhand, India. I discovered my love for programming in late 2021 and pursued a career in software development. 
-                      
-                      During my time at Microverse, I gained expertise in HTML5, CSS3/SCSS, JavaScript, React, Redux, and Ruby. Collaboration and mentoring are my strengths, and I prioritize a mobile-first approach and test-driven development. I love to create amazing web experiences for users!
+                      Hi, I&apos;m Ritika Rawat, a passionate web developer from Uttarakhand, India.
+                      I discovered my love for programming
+                      in late 2021 and pursued a career in software
+                      development.
+                      During my time at Microverse, I gained expertise in HTML5, CSS3/SCSS,
+                      JavaScript, React, Redux, and Ruby.
+                      Collaboration and mentoring are my strengths, and I prioritize a
+                      mobile-first approach and test-driven development.
+                      I love to create amazing web experiences for users!
 
-                      I firmly believe that my technical expertise, creative thinking, and innate eye for design converge harmoniously, allowing me to deliver innovative solutions that deeply resonate with users. Collaborating with me means breathing life into your digital projects and witnessing them flourish beyond your expectations. Let&apos;s join forces and embark on a journey of transforming ideas into extraordinary digital experiences!
+                      I firmly believe that my technical expertise,
+                      creative thinking, and innate eye for design converge
+                      harmoniously,
+                      allowing me to deliver innovative solutions that
+                      deeply resonate with users.
+                      Collaborating with me means breathing life into your
+                      digital projects and witnessing them flourish beyond your expectations.
+                      Let&apos;s join forces and embark on a
+                      journey of transforming ideas into extraordinary
+                      digital experiences!
                     </p>
 
                     <p className="quote">
