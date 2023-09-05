@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {
   AiFillGithub,
@@ -9,6 +9,16 @@ import Type from './Type';
 import Avatar from '../../Assets/avatar.png';
 
 function Home() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const image = new Image();
+    image.src = Avatar;
+    image.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -37,7 +47,7 @@ function Home() {
               <img
                 src={Avatar}
                 alt="home pic"
-                className="img-fluid"
+                className={`img-fluid home-image ${imageLoaded ? 'fade-in' : ''}`}
                 style={{ maxHeight: '450px' }}
               />
             </Col>

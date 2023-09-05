@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import GitHubCalendar from 'react-github-calendar';
 import Img from '../../Assets/ritika img.png';
 
 function About() {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    // Trigger animation when the component mounts
+    setAnimate(true);
+  }, []);
+
   return (
     <Container fluid className="about-section">
       <Container>
-        <div className="paraimp">
+        <div className={`paraimp ${animate ? 'fade-in' : ''}`}>
           <Row style={{ justifyContent: 'center', padding: '10px' }}>
             <Col
               md={7}
@@ -61,7 +68,7 @@ function About() {
               style={{ paddingTop: '120px', paddingBottom: '50px' }}
               className="about-img"
             >
-              <img src={Img} alt="about" className="rr-img" />
+              <img src={Img} alt="about" className={`rr-img ${animate ? 'fade-in' : ''}`} />
             </Col>
           </Row>
         </div>

@@ -42,7 +42,6 @@
     width: 80%;
     margin: auto auto;
     border-radius: 3px;
-        
   }
 
   .container h2 {
@@ -113,9 +112,6 @@
     transform: scale(1.05);
   }
 }
-
-
-
 
 @media screen and (min-width: 750px) {
   .techHead {
@@ -192,8 +188,6 @@
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
   }
-
-
 
   .frontContainer {
     animation: l-t-r 1.5s ease-in-out;
